@@ -1,0 +1,2066 @@
+{
+    "type":  "excalidraw",
+    "version":  2,
+    "source":  "https://excalidraw.com",
+    "elements":  [
+                     {
+                         "id":  "title",
+                         "type":  "text",
+                         "x":  0,
+                         "y":  "-40",
+                         "width":  436.8,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1336212932,
+                         "version":  1,
+                         "versionNonce":  281814597,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "pre-req-vault architecture",
+                         "originalText":  "pre-req-vault architecture",
+                         "fontSize":  28,
+                         "fontFamily":  1,
+                         "textAlign":  "left",
+                         "verticalAlign":  "top",
+                         "containerId":  null,
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "user",
+                         "type":  "rectangle",
+                         "x":  0,
+                         "y":  110,
+                         "width":  320,
+                         "height":  120,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#ffec99",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  251036579,
+                         "version":  1,
+                         "versionNonce":  1045528552,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "user-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_signs"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_seed"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "user-label",
+                         "type":  "text",
+                         "x":  30.400000000000006,
+                         "y":  140,
+                         "width":  259.2,
+                         "height":  60,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  336868449,
+                         "version":  1,
+                         "versionNonce":  525185351,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "User wallet\nsigner on every instruction\npays tx fees + rent",
+                         "originalText":  "User wallet\nsigner on every instruction\npays tx fees + rent",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "user",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "vault_state",
+                         "type":  "rectangle",
+                         "x":  0,
+                         "y":  520,
+                         "width":  320,
+                         "height":  140,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#b2f2bb",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  1448816729,
+                         "version":  1,
+                         "versionNonce":  1025845583,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "vault_state-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_seed"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_init_state"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_close_state"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "vault_state-label",
+                         "type":  "text",
+                         "x":  25.599999999999994,
+                         "y":  550,
+                         "width":  268.8,
+                         "height":  80,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  347302341,
+                         "version":  1,
+                         "versionNonce":  1522501117,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "vault_state PDA\nseeds: [\"state\", user]\nowner: pre_req_vault\ndata: vault_bump, state_bump",
+                         "originalText":  "vault_state PDA\nseeds: [\"state\", user]\nowner: pre_req_vault\ndata: vault_bump, state_bump",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "vault_state",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "program",
+                         "type":  "rectangle",
+                         "x":  480,
+                         "y":  50,
+                         "width":  320,
+                         "height":  670,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#e7f5ff",
+                         "fillStyle":  "hachure",
+                         "strokeWidth":  1,
+                         "strokeStyle":  "dashed",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  469176917,
+                         "version":  1,
+                         "versionNonce":  514642796,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_signs"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "program-title",
+                         "type":  "text",
+                         "x":  500,
+                         "y":  62,
+                         "width":  252,
+                         "height":  25,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1011207089,
+                         "version":  1,
+                         "versionNonce":  640466375,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "pre_req_vault program",
+                         "originalText":  "pre_req_vault program",
+                         "fontSize":  20,
+                         "fontFamily":  1,
+                         "textAlign":  "left",
+                         "verticalAlign":  "top",
+                         "containerId":  null,
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "ix_init",
+                         "type":  "rectangle",
+                         "x":  510,
+                         "y":  120,
+                         "width":  260,
+                         "height":  90,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#a5d8ff",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  761939227,
+                         "version":  1,
+                         "versionNonce":  520489270,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "ix_init-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_init_state"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_init_vault"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "ix_init-label",
+                         "type":  "text",
+                         "x":  548.8,
+                         "y":  145,
+                         "width":  182.4,
+                         "height":  40,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1034902200,
+                         "version":  1,
+                         "versionNonce":  70637635,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "1. initialize()\ncreates vault_state",
+                         "originalText":  "1. initialize()\ncreates vault_state",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "ix_init",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "ix_deposit",
+                         "type":  "rectangle",
+                         "x":  510,
+                         "y":  265,
+                         "width":  260,
+                         "height":  90,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#a5d8ff",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  1628274751,
+                         "version":  1,
+                         "versionNonce":  1154393708,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "ix_deposit-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_deposit"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "ix_deposit-label",
+                         "type":  "text",
+                         "x":  553.6,
+                         "y":  290,
+                         "width":  172.79999999999998,
+                         "height":  40,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  794941028,
+                         "version":  1,
+                         "versionNonce":  304386161,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "2. deposit(amount)\nuser → vault",
+                         "originalText":  "2. deposit(amount)\nuser → vault",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "ix_deposit",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "ix_withdraw",
+                         "type":  "rectangle",
+                         "x":  510,
+                         "y":  410,
+                         "width":  260,
+                         "height":  90,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#a5d8ff",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  180225221,
+                         "version":  1,
+                         "versionNonce":  1410304260,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "ix_withdraw-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_withdraw"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_cpi"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "ix_withdraw-label",
+                         "type":  "text",
+                         "x":  548.8,
+                         "y":  425,
+                         "width":  182.4,
+                         "height":  60,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1632363899,
+                         "version":  1,
+                         "versionNonce":  1079941164,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "3. withdraw(amount)\nvault → user\n+ register via CPI",
+                         "originalText":  "3. withdraw(amount)\nvault → user\n+ register via CPI",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "ix_withdraw",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "ix_close",
+                         "type":  "rectangle",
+                         "x":  510,
+                         "y":  580,
+                         "width":  260,
+                         "height":  90,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#a5d8ff",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  88294277,
+                         "version":  1,
+                         "versionNonce":  1422309179,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "ix_close-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_close_sys"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_close_state"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "ix_close-label",
+                         "type":  "text",
+                         "x":  558.4,
+                         "y":  595,
+                         "width":  163.2,
+                         "height":  60,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  295522533,
+                         "version":  1,
+                         "versionNonce":  1812425519,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "4. close()\nempty vault,\nclose vault_state",
+                         "originalText":  "4. close()\nempty vault,\nclose vault_state",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "ix_close",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "system",
+                         "type":  "rectangle",
+                         "x":  940,
+                         "y":  285,
+                         "width":  340,
+                         "height":  110,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#e9ecef",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  1385179446,
+                         "version":  1,
+                         "versionNonce":  1032827428,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "system-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_deposit"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_withdraw"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_close_sys"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_sys_vault"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "system-label",
+                         "type":  "text",
+                         "x":  1042.8,
+                         "y":  310,
+                         "width":  134.4,
+                         "height":  60,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  372756913,
+                         "version":  1,
+                         "versionNonce":  83019933,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "System Program\n1111…1111\nSOL transfers",
+                         "originalText":  "System Program\n1111…1111\nSOL transfers",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "system",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "vault",
+                         "type":  "rectangle",
+                         "x":  1400,
+                         "y":  270,
+                         "width":  340,
+                         "height":  150,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#b2f2bb",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  616399326,
+                         "version":  1,
+                         "versionNonce":  1166320573,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "vault-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_init_vault"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_sys_vault"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "vault-label",
+                         "type":  "text",
+                         "x":  1430.8,
+                         "y":  295,
+                         "width":  278.4,
+                         "height":  100,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1642130304,
+                         "version":  1,
+                         "versionNonce":  7909722,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "vault PDA\nseeds: [\"vault\", vault_state]\nowner: System Program\nholds SOL only, no data\nexists after 1st deposit",
+                         "originalText":  "vault PDA\nseeds: [\"vault\", vault_state]\nowner: System Program\nholds SOL only, no data\nexists after 1st deposit",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "vault",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "registration",
+                         "type":  "rectangle",
+                         "x":  940,
+                         "y":  640,
+                         "width":  340,
+                         "height":  120,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#d0bfff",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  1071444042,
+                         "version":  1,
+                         "versionNonce":  1610368933,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "registration-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_cpi"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_reg_app"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "registration-label",
+                         "type":  "text",
+                         "x":  975.6,
+                         "y":  660,
+                         "width":  268.8,
+                         "height":  80,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1496717854,
+                         "version":  1,
+                         "versionNonce":  769147384,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "Turbin3 registration program\nTRBZy…KWDM\ninitialize(github: String)\nrecords your GitHub handle",
+                         "originalText":  "Turbin3 registration program\nTRBZy…KWDM\ninitialize(github: String)\nrecords your GitHub handle",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "registration",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "app_account",
+                         "type":  "rectangle",
+                         "x":  1400,
+                         "y":  625,
+                         "width":  340,
+                         "height":  150,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "#eebefa",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  3
+                                       },
+                         "seed":  298238144,
+                         "version":  1,
+                         "versionNonce":  52679029,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "app_account-label"
+                                               },
+                                               {
+                                                   "type":  "arrow",
+                                                   "id":  "a_reg_app"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false
+                     },
+                     {
+                         "id":  "app_account-label",
+                         "type":  "text",
+                         "x":  1421.2,
+                         "y":  650,
+                         "width":  297.59999999999997,
+                         "height":  100,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  102018019,
+                         "version":  1,
+                         "versionNonce":  1563285833,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "ApplicationAccount PDA\nseeds: [\"prereqs\", user]\nowner: registration program\nfields: user, bump, pre_req_ts,\npre_req_rs, github",
+                         "originalText":  "ApplicationAccount PDA\nseeds: [\"prereqs\", user]\nowner: registration program\nfields: user, bump, pre_req_ts,\npre_req_rs, github",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "app_account",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_signs",
+                         "type":  "arrow",
+                         "x":  326,
+                         "y":  170,
+                         "width":  148,
+                         "height":  0,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  1252912769,
+                         "version":  1,
+                         "versionNonce":  230352743,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_signs-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            148,
+                                            0
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "user",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "program",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_signs-label",
+                         "type":  "text",
+                         "x":  379,
+                         "y":  161.25,
+                         "width":  42,
+                         "height":  17.5,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  499921657,
+                         "version":  1,
+                         "versionNonce":  1544856648,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "signs",
+                         "originalText":  "signs",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_signs",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_seed",
+                         "type":  "arrow",
+                         "x":  160,
+                         "y":  236,
+                         "width":  0,
+                         "height":  278,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "dashed",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  579213358,
+                         "version":  1,
+                         "versionNonce":  1296291815,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_seed-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            278
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "user",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "vault_state",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_seed-label",
+                         "type":  "text",
+                         "x":  122.2,
+                         "y":  357.5,
+                         "width":  75.6,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  287292970,
+                         "version":  1,
+                         "versionNonce":  88996714,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "pubkey is\nthe seed",
+                         "originalText":  "pubkey is\nthe seed",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_seed",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_init_state",
+                         "type":  "arrow",
+                         "x":  504,
+                         "y":  190,
+                         "width":  178,
+                         "height":  370,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  1209118568,
+                         "version":  1,
+                         "versionNonce":  1031826771,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_init_state-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            -178,
+                                            370
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_init",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "vault_state",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_init_state-label",
+                         "type":  "text",
+                         "x":  356.2,
+                         "y":  357.5,
+                         "width":  117.6,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  101589377,
+                         "version":  1,
+                         "versionNonce":  840732319,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "init: creates,\nstores bumps",
+                         "originalText":  "init: creates,\nstores bumps",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_init_state",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_init_vault",
+                         "type":  "arrow",
+                         "x":  776,
+                         "y":  150,
+                         "width":  618,
+                         "height":  150,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "dashed",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  1413164652,
+                         "version":  1,
+                         "versionNonce":  1256927284,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_init_vault-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            618,
+                                            150
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_init",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "vault",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_init_vault-label",
+                         "type":  "text",
+                         "x":  984.2,
+                         "y":  207.5,
+                         "width":  201.6,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  436891075,
+                         "version":  1,
+                         "versionNonce":  26507550,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "derives vault address\n(no account created yet)",
+                         "originalText":  "derives vault address\n(no account created yet)",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_init_vault",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_deposit",
+                         "type":  "arrow",
+                         "x":  776,
+                         "y":  310,
+                         "width":  158,
+                         "height":  5,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  730323051,
+                         "version":  1,
+                         "versionNonce":  534876822,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_deposit-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            158,
+                                            5
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_deposit",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "system",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_deposit-label",
+                         "type":  "text",
+                         "x":  804.6,
+                         "y":  286.25,
+                         "width":  100.8,
+                         "height":  52.5,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  137321672,
+                         "version":  1,
+                         "versionNonce":  1436349488,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "transfer\nuser → vault\n(user signs)",
+                         "originalText":  "transfer\nuser → vault\n(user signs)",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_deposit",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_withdraw",
+                         "type":  "arrow",
+                         "x":  776,
+                         "y":  435,
+                         "width":  158,
+                         "height":  85,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  141885884,
+                         "version":  1,
+                         "versionNonce":  928187157,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_withdraw-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            158,
+                                            -85
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_withdraw",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "system",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_withdraw-label",
+                         "type":  "text",
+                         "x":  804.6,
+                         "y":  366.25,
+                         "width":  100.8,
+                         "height":  52.5,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  24067049,
+                         "version":  1,
+                         "versionNonce":  1595618654,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "transfer\nvault → user\n(PDA signs)",
+                         "originalText":  "transfer\nvault → user\n(PDA signs)",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_withdraw",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_close_sys",
+                         "type":  "arrow",
+                         "x":  776,
+                         "y":  610,
+                         "width":  158,
+                         "height":  225,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  878358966,
+                         "version":  1,
+                         "versionNonce":  1026992478,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_close_sys-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            158,
+                                            -225
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_close",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "system",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_close_sys-label",
+                         "type":  "text",
+                         "x":  804.6,
+                         "y":  480,
+                         "width":  100.8,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  999193593,
+                         "version":  1,
+                         "versionNonce":  17905819,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "transfer all\nSOL → user",
+                         "originalText":  "transfer all\nSOL → user",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_close_sys",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_close_state",
+                         "type":  "arrow",
+                         "x":  504,
+                         "y":  640,
+                         "width":  178,
+                         "height":  20,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  1657675853,
+                         "version":  1,
+                         "versionNonce":  25793645,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_close_state-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            -178,
+                                            -20
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_close",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "vault_state",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_close_state-label",
+                         "type":  "text",
+                         "x":  368.8,
+                         "y":  612.5,
+                         "width":  92.399999999999991,
+                         "height":  35,
+                         "angle":  0,
+                         "strokeColor":  "#2f9e44",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  6148018,
+                         "version":  1,
+                         "versionNonce":  127546193,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "closes it,\nrent → user",
+                         "originalText":  "closes it,\nrent → user",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_close_state",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_sys_vault",
+                         "type":  "arrow",
+                         "x":  1286,
+                         "y":  340,
+                         "width":  108,
+                         "height":  5,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  1308286242,
+                         "version":  1,
+                         "versionNonce":  69078067,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_sys_vault-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            108,
+                                            5
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "system",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "vault",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  "arrow",
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_sys_vault-label",
+                         "type":  "text",
+                         "x":  1302.2,
+                         "y":  333.75,
+                         "width":  75.6,
+                         "height":  17.5,
+                         "angle":  0,
+                         "strokeColor":  "#495057",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1827028395,
+                         "version":  1,
+                         "versionNonce":  1857941533,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "moves SOL",
+                         "originalText":  "moves SOL",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_sys_vault",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_cpi",
+                         "type":  "arrow",
+                         "x":  776,
+                         "y":  490,
+                         "width":  158,
+                         "height":  210,
+                         "angle":  0,
+                         "strokeColor":  "#6741d9",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  4,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  922387523,
+                         "version":  1,
+                         "versionNonce":  750665884,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_cpi-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            158,
+                                            210
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "ix_withdraw",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "registration",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_cpi-label",
+                         "type":  "text",
+                         "x":  813,
+                         "y":  568.75,
+                         "width":  84,
+                         "height":  52.5,
+                         "angle":  0,
+                         "strokeColor":  "#6741d9",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1233212161,
+                         "version":  1,
+                         "versionNonce":  88887631,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "CPI:\ninitialize\n(github)",
+                         "originalText":  "CPI:\ninitialize\n(github)",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_cpi",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "a_reg_app",
+                         "type":  "arrow",
+                         "x":  1286,
+                         "y":  700,
+                         "width":  108,
+                         "height":  0,
+                         "angle":  0,
+                         "strokeColor":  "#6741d9",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  {
+                                           "type":  2
+                                       },
+                         "seed":  745534459,
+                         "version":  1,
+                         "versionNonce":  283760199,
+                         "isDeleted":  false,
+                         "boundElements":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "a_reg_app-label"
+                                               }
+                                           ],
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "points":  [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            108,
+                                            0
+                                        ]
+                                    ],
+                         "lastCommittedPoint":  null,
+                         "startBinding":  {
+                                              "elementId":  "registration",
+                                              "focus":  0,
+                                              "gap":  6
+                                          },
+                         "endBinding":  {
+                                            "elementId":  "app_account",
+                                            "focus":  0,
+                                            "gap":  6
+                                        },
+                         "startArrowhead":  null,
+                         "endArrowhead":  "arrow",
+                         "elbowed":  false
+                     },
+                     {
+                         "id":  "a_reg_app-label",
+                         "type":  "text",
+                         "x":  1310.6,
+                         "y":  691.25,
+                         "width":  58.8,
+                         "height":  17.5,
+                         "angle":  0,
+                         "strokeColor":  "#6741d9",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  873901365,
+                         "version":  1,
+                         "versionNonce":  1584572554,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "creates",
+                         "originalText":  "creates",
+                         "fontSize":  14,
+                         "fontFamily":  1,
+                         "textAlign":  "center",
+                         "verticalAlign":  "middle",
+                         "containerId":  "a_reg_app",
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     },
+                     {
+                         "id":  "notes",
+                         "type":  "text",
+                         "x":  0,
+                         "y":  820,
+                         "width":  1267.2,
+                         "height":  120,
+                         "angle":  0,
+                         "strokeColor":  "#1e1e1e",
+                         "backgroundColor":  "transparent",
+                         "fillStyle":  "solid",
+                         "strokeWidth":  2,
+                         "strokeStyle":  "solid",
+                         "roughness":  1,
+                         "opacity":  100,
+                         "groupIds":  [
+
+                                      ],
+                         "frameId":  null,
+                         "roundness":  null,
+                         "seed":  1064731197,
+                         "version":  1,
+                         "versionNonce":  801397985,
+                         "isDeleted":  false,
+                         "boundElements":  null,
+                         "updated":  1,
+                         "link":  null,
+                         "locked":  false,
+                         "text":  "Legend:  grey = SOL transfer via System Program CPI   |   purple = CPI to Turbin3 registration program   |   dashed = PDA derivation\n\nKey ideas:\n- Ownership comes from seeds: user → vault_state → vault. There is no owner field, so another signer derives different PDAs.\n- The vault PDA has no private key. The program signs for it with [\"vault\", vault_state, vault_bump] on withdraw and close.\n- withdraw forwards the user\u0027s signature into the registration CPI, so the user pays for the ApplicationAccount (once per wallet).",
+                         "originalText":  "Legend:  grey = SOL transfer via System Program CPI   |   purple = CPI to Turbin3 registration program   |   dashed = PDA derivation\n\nKey ideas:\n- Ownership comes from seeds: user → vault_state → vault. There is no owner field, so another signer derives different PDAs.\n- The vault PDA has no private key. The program signs for it with [\"vault\", vault_state, vault_bump] on withdraw and close.\n- withdraw forwards the user\u0027s signature into the registration CPI, so the user pays for the ApplicationAccount (once per wallet).",
+                         "fontSize":  16,
+                         "fontFamily":  1,
+                         "textAlign":  "left",
+                         "verticalAlign":  "top",
+                         "containerId":  null,
+                         "lineHeight":  1.25,
+                         "autoResize":  true
+                     }
+                 ],
+    "appState":  {
+                     "viewBackgroundColor":  "#ffffff",
+                     "gridSize":  null
+                 },
+    "files":  {
+
+              }
+}
